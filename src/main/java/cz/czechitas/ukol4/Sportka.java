@@ -13,7 +13,7 @@ public class Sportka {
 
     //Naplnit osudí čísly 1 až 49.
     public Sportka() {
-        for (int i = 0; i < 49; i++) {
+        for (int i = 1; i <= 49; i++) {
             osudi.add(i);
         }
     }
